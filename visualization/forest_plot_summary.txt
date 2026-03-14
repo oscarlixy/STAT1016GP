@@ -1,0 +1,15 @@
+
+FOREST PLOT - REGRESSION COEFFICIENT ANALYSIS
+================================================
+
+Key Findings:
+- Experience is the DOMINANT predictor (β = 0.360, p < 0.001)
+- Each standard deviation increase in experience → ~42.7% salary increase
+- AI Skill Requirement shows NO significant effect (β = -0.004, p = 0.430)
+- Industry effects are NOT statistically significant
+
+Interpretation:
+- The further right a point, the higher the positive impact on salary
+- Points crossing the vertical zero line indicate non-significant effects
+- Experience (red) is far to the right, showing strong positive effect
+
