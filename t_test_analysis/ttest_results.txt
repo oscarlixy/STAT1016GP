@@ -1,0 +1,54 @@
+
+================================================================================
+Independent Samples T-Test Results Report
+================================================================================
+Analysis Date: 2026-03-14 16:07:57
+
+One. Sample Descriptive Statistics
+--------------------------------------------------------------------------------
+With AI Skill Requirement (AI_Skill=1):
+  Sample Size: 10127
+  Mean (Log_Salary): 11.5184
+  Standard Deviation: 0.4810
+  Median: 11.5037
+
+Without AI Skill Requirement (AI_Skill=0):
+  Sample Size: 4670
+  Mean (Log_Salary): 11.5096
+  Standard Deviation: 0.4765
+  Median: 11.4904
+
+Two. Hypothesis Testing
+--------------------------------------------------------------------------------
+H0: μ_with_AI = μ_without_AI (No significant difference in salary)
+H1: μ_with_AI ≠ μ_without_AI (Significant difference exists)
+
+Significance Level: α = 0.05
+
+Three. Test Results
+--------------------------------------------------------------------------------
+Levene's Test for Equality of Variances:
+  Statistic: 0.7886
+  p-value: 0.374538
+  Conclusion: Equal variances assumed, using standard t-test
+
+Independent Samples T-Test:
+  t-statistic: 1.0422
+  p-value: 2.973217e-01
+  Cohen's d (Effect Size): 0.0184 (Negligible Effect)
+
+Mean Difference:
+  Difference (Log): 0.0088
+  95% Confidence Interval: [-0.0078, 0.0255]
+
+Original Salary Difference:
+  Mean Salary (with AI): $100,548.94
+  Mean Salary (without AI): $99,663.86
+  Absolute Difference: $885.08
+  Percentage Difference: 0.89%
+
+Four. Final Conclusion
+--------------------------------------------------------------------------------
+✗ FAIL TO REJECT H0: No significant difference (p >= 0.05)
+
+================================================================================
