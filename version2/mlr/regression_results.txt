@@ -1,0 +1,53 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Log_Salary   R-squared:                       0.572
+Model:                            OLS   Adj. R-squared:                  0.571
+Method:                 Least Squares   F-statistic:                     1251.
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):               0.00
+Time:                        23:45:26   Log-Likelihood:                -4391.7
+No. Observations:               15000   AIC:                             8817.
+Df Residuals:                   14983   BIC:                             8947.
+Df Model:                          16                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          10.4166      0.005   2119.261      0.000      10.407      10.426
+AI_Skill_Requirement           -0.0032      0.005     -0.580      0.562      -0.014       0.008
+Experience_Scaled               1.2840      0.009    141.405      0.000       1.266       1.302
+Industry_Automotive             0.6920      0.010     70.442      0.000       0.673       0.711
+Industry_Consulting             0.6911      0.010     70.322      0.000       0.672       0.710
+Industry_Education              0.6975      0.010     68.853      0.000       0.678       0.717
+Industry_Energy                 0.6695      0.010     66.714      0.000       0.650       0.689
+Industry_Finance                0.7051      0.010     70.560      0.000       0.686       0.725
+Industry_Gaming                 0.6782      0.010     67.323      0.000       0.658       0.698
+Industry_Government             0.7079      0.010     71.316      0.000       0.688       0.727
+Industry_Healthcare             0.6886      0.010     69.306      0.000       0.669       0.708
+Industry_Manufacturing          0.7007      0.010     69.371      0.000       0.681       0.720
+Industry_Media                  0.6821      0.010     70.152      0.000       0.663       0.701
+Industry_Real Estate            0.7113      0.010     71.977      0.000       0.692       0.731
+Industry_Retail                 0.6952      0.010     72.115      0.000       0.676       0.714
+Industry_Technology             0.6959      0.010     70.541      0.000       0.677       0.715
+Industry_Telecommunications     0.7066      0.010     71.107      0.000       0.687       0.726
+Industry_Transportation         0.6948      0.010     69.968      0.000       0.675       0.714
+==============================================================================
+Omnibus:                      125.321   Durbin-Watson:                   2.002
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               89.289
+Skew:                           0.074   Prob(JB):                     4.08e-20
+Kurtosis:                       2.653   Cond. No.                     1.01e+15
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 2.43e-26. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+======================================================================
+VERSION 2 - AI JOB MARKET ANALYSIS
+Data Source: cleaned_ai_job_data_v2.csv
+
+======================================================================
+KEY FINDINGS:
+R-squared: 0.5719
+AI Skill Premium: -0.32%
+P-value (AI_Skill): 0.5621
